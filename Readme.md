@@ -9,13 +9,13 @@ https://hub.docker.com/layers/asli926/micro_conference/userservice2.0/images/sha
 ```
 镜像获取：
 ```
-docker pull asli926/micro_conference:userservice2.0 //pull下镜像
+sudo docker pull asli926/micro_conference:userservice2.0 //pull下镜像
 docker run -p 8080:8080 -d asli926/micro_conference:userservice2.0
 ```
 
 ### 进入容器
 ```
-docker exec -it  /bin/bash 
+docker exec -it <container_id> /bin/bash 
 ```
 容器中数据库位置：
 ```
